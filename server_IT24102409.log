@@ -1,0 +1,56 @@
+[2026-04-11 16:55:27] SERVER STARTUP | PID:9387 | Users:0 | Sessions:0
+[2026-04-11 16:55:40] 127.0.0.1:46686 | PID:9389 | User:anonymous | Cmd:connect | Result:success | CONNECTION
+[2026-04-11 16:55:40] 127.0.0.1:46686 | PID:9389 | User:anonymous | Cmd:LOGOUT | Result:received | COMMAND
+[2026-04-11 16:55:40] 127.0.0.1:46686 | PID:9389 | User:anonymous | Cmd:disconnect | Result:success | DISCONNECT
+[2026-04-11 16:56:22] 127.0.0.1:33424 | PID:9406 | User:anonymous | Cmd:connect | Result:success | CONNECTION
+[2026-04-11 16:56:22] 127.0.0.1:33424 | PID:9406 | User:anonymous | Cmd:REGISTER shane pal123 | Result:received | COMMAND
+[2026-04-11 16:56:22] 127.0.0.1:33424 | PID:9406 | User:shane | Cmd:REGISTER | Result:success | REGISTER_SUCCESS
+[2026-04-11 16:56:22] 127.0.0.1:33424 | PID:9406 | User:anonymous | Cmd:disconnect | Result:success | DISCONNECT
+[2026-04-11 16:56:31] 127.0.0.1:33436 | PID:9411 | User:anonymous | Cmd:connect | Result:success | CONNECTION
+[2026-04-11 16:56:31] 127.0.0.1:33436 | PID:9411 | User:anonymous | Cmd:LOGIN shane pal123 | Result:received | COMMAND
+[2026-04-11 16:56:31] 127.0.0.1:33436 | PID:9411 | User:shane | Cmd:LOGIN | Result:success | LOGIN_SUCCESS
+[2026-04-11 16:56:31] 127.0.0.1:33436 | PID:9411 | User:shane | Cmd:disconnect | Result:success | DISCONNECT
+[2026-04-11 17:00:15] 127.0.0.1:33848 | PID:9576 | User:anonymous | Cmd:connect | Result:success | CONNECTION
+[2026-04-11 17:00:15] 127.0.0.1:33848 | PID:9576 | User:anonymous | Cmd:LOGIN alice pass123 | Result:received | COMMAND
+[2026-04-11 17:00:15] 127.0.0.1:33850 | PID:9577 | User:anonymous | Cmd:connect | Result:success | CONNECTION
+[2026-04-11 17:00:15] 127.0.0.1:33850 | PID:9577 | User:anonymous | Cmd:LOGIN alice pass123 | Result:received | COMMAND
+[2026-04-11 17:00:15] 127.0.0.1:33848 | PID:9576 | User:alice | Cmd:LOGIN | Result:user not found | LOGIN_FAIL
+[2026-04-11 17:00:15] 127.0.0.1:33850 | PID:9577 | User:alice | Cmd:LOGIN | Result:user not found | LOGIN_FAIL
+[2026-04-11 17:00:15] 127.0.0.1:33848 | PID:9576 | User:anonymous | Cmd:disconnect | Result:success | DISCONNECT
+[2026-04-11 17:00:15] 127.0.0.1:33862 | PID:9578 | User:anonymous | Cmd:connect | Result:success | CONNECTION
+[2026-04-11 17:00:15] 127.0.0.1:33862 | PID:9578 | User:anonymous | Cmd:LOGIN alice pass123 | Result:received | COMMAND
+[2026-04-11 17:00:15] 127.0.0.1:33862 | PID:9578 | User:alice | Cmd:LOGIN | Result:user not found | LOGIN_FAIL
+[2026-04-11 17:00:15] 127.0.0.1:33850 | PID:9577 | User:anonymous | Cmd:disconnect | Result:success | DISCONNECT
+[2026-04-11 17:00:15] 127.0.0.1:33862 | PID:9578 | User:anonymous | Cmd:disconnect | Result:success | DISCONNECT
+[2026-04-11 17:00:15] 127.0.0.1:33870 | PID:9579 | User:anonymous | Cmd:connect | Result:success | CONNECTION
+[2026-04-11 17:00:15] 127.0.0.1:33870 | PID:9579 | User:anonymous | Cmd:LOGIN alice pass123 | Result:received | COMMAND
+[2026-04-11 17:00:15] 127.0.0.1:33870 | PID:9579 | User:alice | Cmd:LOGIN | Result:user not found | LOGIN_FAIL
+[2026-04-11 17:00:15] 127.0.0.1:33870 | PID:9579 | User:anonymous | Cmd:disconnect | Result:success | DISCONNECT
+[2026-04-11 17:00:15] 127.0.0.1:33876 | PID:9580 | User:anonymous | Cmd:connect | Result:success | CONNECTION
+[2026-04-11 17:00:15] 127.0.0.1:33876 | PID:9580 | User:anonymous | Cmd:LOGIN alice pass123 | Result:received | COMMAND
+[2026-04-11 17:00:15] 127.0.0.1:33876 | PID:9580 | User:alice | Cmd:LOGIN | Result:user not found | LOGIN_FAIL
+[2026-04-11 17:00:15] 127.0.0.1:33876 | PID:9580 | User:anonymous | Cmd:disconnect | Result:success | DISCONNECT
+[2026-04-11 17:00:34] 127.0.0.1:47734 | PID:9600 | User:anonymous | Cmd:connect | Result:success | CONNECTION
+[2026-04-11 17:00:34] 127.0.0.1:47734 | PID:9600 | User:anonymous | Cmd:REGISTER alice pass123 | Result:received | COMMAND
+[2026-04-11 17:00:34] 127.0.0.1:47736 | PID:9602 | User:anonymous | Cmd:connect | Result:success | CONNECTION
+[2026-04-11 17:00:34] 127.0.0.1:47736 | PID:9602 | User:anonymous | Cmd:REGISTER alice pass123 | Result:received | COMMAND
+[2026-04-11 17:00:34] 127.0.0.1:47742 | PID:9603 | User:anonymous | Cmd:connect | Result:success | CONNECTION
+[2026-04-11 17:00:34] 127.0.0.1:47742 | PID:9603 | User:anonymous | Cmd:REGISTER alice pass123 | Result:received | COMMAND
+[2026-04-11 17:00:34] 127.0.0.1:47734 | PID:9600 | User:alice | Cmd:REGISTER | Result:success | REGISTER_SUCCESS
+[2026-04-11 17:00:34] 127.0.0.1:47734 | PID:9600 | User:anonymous | Cmd:disconnect | Result:success | DISCONNECT
+[2026-04-11 17:00:34] 127.0.0.1:47758 | PID:9612 | User:anonymous | Cmd:connect | Result:success | CONNECTION
+[2026-04-11 17:00:34] 127.0.0.1:47758 | PID:9612 | User:anonymous | Cmd:REGISTER alice pass123 | Result:received | COMMAND
+[2026-04-11 17:00:34] 127.0.0.1:47758 | PID:9612 | User:alice | Cmd:REGISTER | Result:user already exists | REGISTER_FAIL
+[2026-04-11 17:00:34] 127.0.0.1:47758 | PID:9612 | User:anonymous | Cmd:disconnect | Result:success | DISCONNECT
+[2026-04-11 17:00:34] 127.0.0.1:47764 | PID:9613 | User:anonymous | Cmd:connect | Result:success | CONNECTION
+[2026-04-11 17:00:34] 127.0.0.1:47764 | PID:9613 | User:anonymous | Cmd:REGISTER alice pass123 | Result:received | COMMAND
+[2026-04-11 17:00:34] 127.0.0.1:47764 | PID:9613 | User:alice | Cmd:REGISTER | Result:user already exists | REGISTER_FAIL
+[2026-04-11 17:00:34] 127.0.0.1:47764 | PID:9613 | User:anonymous | Cmd:disconnect | Result:success | DISCONNECT
+[2026-04-11 17:00:34] 127.0.0.1:47742 | PID:9603 | User:alice | Cmd:REGISTER | Result:success | REGISTER_SUCCESS
+[2026-04-11 17:00:34] 127.0.0.1:47742 | PID:9603 | User:anonymous | Cmd:disconnect | Result:success | DISCONNECT
+[2026-04-11 17:00:34] 127.0.0.1:47736 | PID:9602 | User:alice | Cmd:REGISTER | Result:success | REGISTER_SUCCESS
+[2026-04-11 17:00:34] 127.0.0.1:47736 | PID:9602 | User:anonymous | Cmd:disconnect | Result:success | DISCONNECT
+[2026-04-11 17:32:21] 127.0.0.1:50168 | PID:9838 | User:anonymous | Cmd:connect | Result:success | CONNECTION
+[2026-04-11 17:32:21] 127.0.0.1:50168 | PID:9838 | User:anonymous | Cmd:REGISTER shane pal123 | Result:received | COMMAND
+[2026-04-11 17:32:21] 127.0.0.1:50168 | PID:9838 | User:shane | Cmd:REGISTER | Result:user already exists | REGISTER_FAIL
+[2026-04-11 17:32:21] 127.0.0.1:50168 | PID:9838 | User:anonymous | Cmd:disconnect | Result:success | DISCONNECT
