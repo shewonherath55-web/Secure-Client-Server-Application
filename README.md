@@ -6,22 +6,23 @@ IE2102 Module | Network Programming project featuring a secure TCP client-server
 This project is a secure client-server application developed as part of the Network Programming module. It implements a custom TCP communication protocol using a C-based server and a Python client. The server supports concurrent client connections through multiprocessing, secure user authentication with salted password hashing, session token management, abuse protection mechanisms, and persistent audit logging.
 
 # Technology Used
-| Technology  | Purpose                 |
-| ----------- | ----------------------- |
-| C           | TCP Server              |
-| Python      | Client Application      |
-| TCP Sockets | Network Communication   |
-| GCC         | Compilation             |
-| Make        | Build Automation        |
-| Linux       | Development Environment |
+C – Implementation of the TCP Server
+Python – Development of the Client Application
+TCP Sockets – Client–Server Network Communication
+GCC – Compilation of C Source Code
+Make – Build Automation
+Linux – Development and Testing Environment
+
 
 # Project Structure
-
+.
 ├── server_xxxx.c
 ├── client_xxxx.py
 ├── Makefile_xxxx
 ├── server_xxxxxxxx.log
+├── users/
 ├── README.md
+
 
 # Build & Run
 Compile the server using the provided Makefile.
@@ -35,6 +36,7 @@ Start the Server
 
 Run the Python Client
 -> python3 client_2409.py
+
 
 # Example Commands
 REGISTER alice password123
