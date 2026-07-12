@@ -16,7 +16,7 @@ This project is a secure client-server application developed as part of the Netw
 | Linux       | Development Environment |
 
 # Project Structure
-.
+
 ├── server_xxxx.c
 ├── client_xxxx.py
 ├── Makefile_xxxx
